@@ -1,0 +1,27 @@
+###1###
+age_years = int(input("what is your age in years?"))
+print(f"your age in months is {age_years * 12}")
+###2###
+age_months = int(input("what is your age in months"))
+print(f"your age in years is {int(age_months/12)}")
+###3###
+num = int(input("please enter a number"))
+if num%7 == 0:
+    print("BOOM")
+###4###
+num = int(input("please enter a number"))
+s = str(num)
+if s.find("7") or num%7 == 0:
+    print("BOOM")
+###5###
+num1 = int(input("please enter a number"))
+num2= int(input("please enter a number"))
+num3= int(input("please enter a number"))
+print(f"max number is {max(num1,num2,num3)}")
+###6###
+a1 = int(input("please enter the first number in the series"))
+d= int(input("please enter the range between series members"))
+n = int(input("please enter the number of members in series"))
+
+an = a1+d*(n-1)
+print(f"the sum of series is {(n*(a1+an))/2} ")
